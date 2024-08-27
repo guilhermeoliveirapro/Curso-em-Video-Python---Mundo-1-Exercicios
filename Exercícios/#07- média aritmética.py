@@ -1,0 +1,6 @@
+n1 = float(input('digite a sua nota da primeira unidade: '))
+n2 = float(input('digite a sua nota da segunda unidade: '))
+n3 = float(input('digite a sua nota da terceira unidade'))
+n4 = float(input('digite a sua nota da quarta unidade'))
+total = (n1 + n2 + n3 + n4)
+print('a média do aluno foi de {}'.format(total/4))
